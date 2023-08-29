@@ -1,0 +1,10 @@
+.App {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'aside main'
+    'footer footer';
+  column-gap: 40px;
+  grid-template-rows: 200px 1fr 50px;
+  grid-template-columns: 0.8fr 2fr;
+}

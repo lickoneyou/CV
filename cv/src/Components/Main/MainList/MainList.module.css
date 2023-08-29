@@ -1,0 +1,30 @@
+.list {
+  margin-bottom: 40px;
+}
+
+.title{
+  overflow: hidden;
+}
+
+.title:after {
+  content: '';
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 100%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 5px solid rgb(220, 217, 217);
+}
+
+.descr{
+  margin-left: 10px;
+}
+
+.descr h3, .descr p {
+  margin: 0;
+}
+
+.descr p {
+  margin: 0px 0 15px 10px;
+}

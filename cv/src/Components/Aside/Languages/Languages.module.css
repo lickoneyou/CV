@@ -1,0 +1,16 @@
+.languagesWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tittle{
+  margin: 50px 0 10px 0;
+}
+
+.language, .lvl{
+margin: 0;
+}
+
+.language{
+  font-weight: bold;
+}

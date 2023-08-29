@@ -1,0 +1,14 @@
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  margin-right: 10px;
+  transition: 1s;
+}
+
+footer img:hover {
+  transform: scale(1.2);
+}
