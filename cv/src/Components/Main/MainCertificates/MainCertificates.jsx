@@ -33,9 +33,11 @@ const MainCertificates = (props) => {
       {certificates.map((el) => {
         return (
           <div className={styles.certificateWrapper} key={el.title}>
-            <a className={styles.aaa} href={el.link}>
+            <a href={el.link} target="_blank">
               <img src={el.img} alt={el.title} />
-              <span className={styles.img__mask}><b className={styles.title}>{el.title}</b></span>
+              <span className={styles.img__mask}>
+                <b className={styles.title}>{el.title}</b>
+              </span>
             </a>
           </div>
         )

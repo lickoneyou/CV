@@ -21,7 +21,22 @@ const projects = [
 
 const MainProjects = (props) => {
   props.st('otherApp')
-  return <div>MainProjects</div>
+  return (
+    <main className={styles.MainProjects}>
+      {projects.map((el) => {
+        return (
+          <div className={styles.projectWrapper} key={el.title}>
+            <a href={el.link} target='_blank'>
+              <img src={el.img} alt={el.title} />
+              <span className={styles.img__mask}>
+                <b className={styles.title}>{el.title}</b>
+              </span>
+            </a>
+          </div>
+        )
+      })}
+    </main>
+  )
 }
 
 export default MainProjects
