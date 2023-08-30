@@ -26,8 +26,22 @@ const certificates = [
   },
 ]
 
-const MainCertificates = () => {
-  return <div>MainCertificates</div>
+const MainCertificates = (props) => {
+  props.st('otherApp')
+  return (
+    <main className={styles.MainCertificates}>
+      {certificates.map((el) => {
+        return (
+          <div className={styles.certificateWrapper} key={el.title}>
+            <a className={styles.aaa} href={el.link}>
+              <img src={el.img} alt={el.title} />
+              <span className={styles.img__mask}><b className={styles.title}>{el.title}</b></span>
+            </a>
+          </div>
+        )
+      })}
+    </main>
+  )
 }
 
 export default MainCertificates

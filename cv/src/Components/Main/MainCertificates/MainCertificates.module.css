@@ -1,0 +1,51 @@
+.certificateWrapper img {
+  max-width: 550px;
+}
+
+.certificateWrapper {
+  border: 3px solid black;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.MainCertificates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+  padding-left: 50px;
+  margin-bottom: 20px;
+}
+
+.img__mask{
+  transition: all 700ms ease;
+}
+
+.certificateWrapper {
+  display: block;
+  position: relative;
+}
+
+.img__mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.img__mask:hover {
+  opacity: 1;
+}
+
+.title{
+  width: 100%;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}

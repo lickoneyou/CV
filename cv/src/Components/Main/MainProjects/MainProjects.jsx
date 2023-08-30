@@ -19,7 +19,8 @@ const projects = [
   },
 ]
 
-const MainProjects = () => {
+const MainProjects = (props) => {
+  props.st('otherApp')
   return <div>MainProjects</div>
 }
 
