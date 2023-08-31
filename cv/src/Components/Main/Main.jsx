@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainProfile from './MainProfile/MainProfile'
 import MainList from './MainList/MainList'
 import styles from './Main.module.css'
@@ -47,7 +47,10 @@ const employmentHistory = [
   },
 ]
 
-const Main = () => {
+const Main = (props) => {
+  useEffect(() => {
+    props.st('App')
+  }, [])
   return (
     <main>
       <MainProfile title={profile[0].title} descr={profile[0].descr} />
