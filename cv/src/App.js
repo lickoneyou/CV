@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './Components/Header/Header'
 import Aside from './Components/Aside/Aside'
 import Main from './Components/Main/Main'
@@ -8,9 +8,6 @@ import MainProjects from './Components/Main/MainProjects/MainProjects'
 import Footer from './Components/Footer/Footer'
 import { useState } from 'react'
 
-window.addEventListener('hashchange', function () {
-  console.log('location changed!')
-})
 
 function App() {
   const [state, setState] = useState('App')
@@ -20,7 +17,7 @@ function App() {
         <Header />
         <Router>
           <Routes>
-            <Route path="/" element={[<Main key={1}/>, <Aside key={2} />]} />
+            <Route path='/' element={[<Main key={1} st={setState}/>, <Aside key={2} />]} />
             <Route path="/Projects" element={<MainProjects st={setState} />} />
             <Route
               path="/Certificates"
