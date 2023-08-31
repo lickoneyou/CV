@@ -5,7 +5,7 @@ const certificates = [
   {
     title: 'THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)',
     link: 'https://app.rs.school/certificate/ecw26weg',
-    img: './images/certificates/preRS.png',
+    img: './images/certificates/preRs.png',
   },
   {
     title: 'THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT-END 2022Q3 (JAVASCRIPT)',
