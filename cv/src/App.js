@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './Components/Header/Header'
 import Aside from './Components/Aside/Aside'
 import Main from './Components/Main/Main'
@@ -20,7 +20,7 @@ function App() {
         <Header />
         <Router>
           <Routes>
-            <Route path="/" element={[<Main />, <Aside />]} />
+            <Route path="/" element={[<Main key={1}/>, <Aside key={2} />]} />
             <Route path="/Projects" element={<MainProjects st={setState} />} />
             <Route
               path="/Certificates"

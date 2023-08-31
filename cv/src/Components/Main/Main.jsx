@@ -54,7 +54,6 @@ const Main = () => {
       <MainList title="Education" list={education} />
 
       <MainList title="Employment History" list={employmentHistory} />
-
     </main>
   )
 }

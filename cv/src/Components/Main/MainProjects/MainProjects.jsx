@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './MainProjects.module.css'
 
 const projects = [
@@ -20,13 +20,15 @@ const projects = [
 ]
 
 const MainProjects = (props) => {
-  props.st('otherApp')
+  useEffect(() => {
+    props.st('otherApp')
+  }, [])
   return (
     <main className={styles.MainProjects}>
       {projects.map((el) => {
         return (
           <div className={styles.projectWrapper} key={el.title}>
-            <a href={el.link} target='_blank'>
+            <a href={el.link} target="_blank">
               <img src={el.img} alt={el.title} />
               <span className={styles.img__mask}>
                 <b className={styles.title}>{el.title}</b>

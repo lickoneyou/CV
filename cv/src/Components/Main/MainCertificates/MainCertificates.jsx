@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import styles from './MainCertificates.module.css'
 
 const certificates = [
@@ -27,7 +27,9 @@ const certificates = [
 ]
 
 const MainCertificates = (props) => {
-  props.st('otherApp')
+  useEffect(() => {
+    props.st('otherApp')
+  }, [])
   return (
     <main className={styles.MainCertificates}>
       {certificates.map((el) => {
