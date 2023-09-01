@@ -13,6 +13,11 @@ const projects = [
     img: './images/projects/dart.png',
   },
   {
+    title: 'Momentum',
+    link: 'https://lickoneyou.github.io/momentum/',
+    img: './images/projects/momentum.png',
+  },
+  {
     title: 'JS ToDo',
     link: 'https://lickoneyou.github.io/ToDo_JS/',
     img: './images/projects/ToDoJS.png',
