@@ -8,6 +8,11 @@ const projects = [
     img: './images/projects/ToDoReact.png',
   },
   {
+    title: 'Canvas Classic Snake Game',
+    link: 'https://lickoneyou.github.io/classicSnakeGame/',
+    img: './images/projects/snakeGame.png',
+  },
+  {
     title: 'DART SERVICE MANAGER',
     link: 'https://lickoneyou.github.io/DART_SERVICE_MANAGER/',
     img: './images/projects/dart.png',
