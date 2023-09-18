@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <footer>
       {icons.map((el) => (
-        <a href={el.href} key={el.id}>
+        <a href={el.href} key={el.id} target="_blank">
           <img src={el.src} alt={el.id} />
         </a>
       ))}
