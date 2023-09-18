@@ -17,7 +17,11 @@ const icons = [
     src: './images/icons/instagram.png',
     href: 'https://www.instagram.com/dick_durex/',
   },
-  { id: 'likedin', src: './images/icons/linkedin.png', href: '' },
+  {
+    id: 'linkedin',
+    src: './images/icons/linkedin.png',
+    href: 'https://www.linkedin.com/in/lickoneyou/',
+  },
   {
     id: 'discord',
     src: './images/icons/discord.png',
