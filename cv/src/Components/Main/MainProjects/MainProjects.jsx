@@ -13,6 +13,11 @@ const projects = [
     img: './images/projects/snakeGame.png',
   },
   {
+    title: 'Museum',
+    link: 'https://lickoneyou.github.io/Museum/',
+    img: './images/projects/museum.png',
+  },
+  {
     title: 'Shelter',
     link: 'https://lickoneyou.github.io/Shelter/',
     img: './images/projects/Shelter.png',
@@ -31,6 +36,11 @@ const projects = [
     title: 'JS ToDo',
     link: 'https://lickoneyou.github.io/ToDo_JS/',
     img: './images/projects/ToDoJS.png',
+  },
+  {
+    title: 'Plants',
+    link: 'https://lickoneyou.github.io/Plants/',
+    img: './images/projects/plants.png',
   },
 ]
 
