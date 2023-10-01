@@ -13,6 +13,11 @@ const projects = [
     img: './images/projects/snakeGame.png',
   },
   {
+    title: 'Museum',
+    link: 'https://lickoneyou.github.io/Museum/',
+    img: './images/projects/museum.png',
+  },
+  {
     title: 'Shelter',
     link: 'https://lickoneyou.github.io/Shelter/',
     img: './images/projects/Shelter.png',
