@@ -32,6 +32,11 @@ const projects = [
     link: 'https://lickoneyou.github.io/ToDo_JS/',
     img: './images/projects/ToDoJS.png',
   },
+  {
+    title: 'Plants',
+    link: 'https://lickoneyou.github.io/Plants/',
+    img: './images/projects/plants.png',
+  },
 ]
 
 const MainProjects = (props) => {
