@@ -3,8 +3,9 @@ import styles from './Skills.module.css'
 
 const skills = [
   { skill: 'JavaScript', lvl: 4 },
-  { skill: 'TypeScript', lvl: 3 },
-  { skill: 'React', lvl: 2 },
+  { skill: 'TypeScript', lvl: 2 },
+  { skill: 'React', lvl: 3 },
+  { skill: 'Redux', lvl: 3 },
   { skill: 'HTML', lvl: 3 },
   { skill: 'CSS', lvl: 3 },
 ]
