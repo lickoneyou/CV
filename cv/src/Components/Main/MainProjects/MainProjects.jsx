@@ -18,6 +18,11 @@ const projects = [
     img: './images/projects/redux:reactPortfolio.png',
   },
   {
+    title: 'React|Redux Store',
+    link: 'https://lickoneyou.github.io/Store/reduxstore/build/',
+    img: './images/projects/store.png',
+  },
+  {
     title: 'Museum',
     link: 'https://lickoneyou.github.io/Museum/',
     img: './images/projects/museum.png',
