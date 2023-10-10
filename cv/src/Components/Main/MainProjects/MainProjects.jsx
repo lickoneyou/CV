@@ -13,6 +13,11 @@ const projects = [
     img: './images/projects/snakeGame.png',
   },
   {
+    title: 'React Cyberpunk',
+    link: 'https://lickoneyou.github.io/Cyberpunk/cyberpunk/build/#',
+    img: './images/projects/cyberpunk.png',
+  },
+  {
     title: 'React|Redux Portfolio',
     link: 'https://lickoneyou.github.io/Portfolio/portfolio/build/',
     img: './images/projects/redux:reactPortfolio.png',
