@@ -13,6 +13,11 @@ const certificates = [
     img: './images/certificates/RS.png',
   },
   {
+    title: 'FRONT END DEVELOPMENT LIBRARIES',
+    link: 'https://www.freecodecamp.org/certification/lickoneyou/front-end-development-libraries',
+    img: './images/certificates/reactCert.png',
+  },
+  {
     title: 'JavaScript Algorithms and Data Structures Certification',
     link:
       'https://www.freecodecamp.org/certification/lickoneyou/javascript-algorithms-and-data-structures',
