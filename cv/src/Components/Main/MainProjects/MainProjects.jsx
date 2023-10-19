@@ -33,6 +33,11 @@ const projects = [
     img: './images/projects/museum.png',
   },
   {
+    title: 'HOUSE OF GAMBLING',
+    link: 'https://lickoneyou.github.io/HouseOfGambling/',
+    img: './images/projects/HoG.png',
+  },
+  {
     title: 'Shelter',
     link: 'https://lickoneyou.github.io/Shelter/',
     img: './images/projects/Shelter.png',
