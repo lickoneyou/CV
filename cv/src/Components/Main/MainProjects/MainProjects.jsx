@@ -3,6 +3,11 @@ import styles from './MainProjects.module.css'
 
 const projects = [
   {
+    title: '50 Projects 50 Days',
+    link: 'https://lickoneyou.github.io/50projectsCarousel/',
+    img: './images/projects/50projects50days.png',
+  },
+  {
     title: 'React ToDo',
     link: 'https://lickoneyou.github.io/React_ToDo/build/',
     img: './images/projects/ToDoReact.png',
