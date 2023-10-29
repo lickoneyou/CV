@@ -38,6 +38,11 @@ const projects = [
     img: './images/projects/museum.png',
   },
   {
+    title: 'Go Games',
+    link: 'https://lickoneyou.github.io/Gogames/build/',
+    img: './images/projects/Gogames.png',
+  },
+  {
     title: 'HOUSE OF GAMBLING',
     link: 'https://lickoneyou.github.io/HouseOfGambling/',
     img: './images/projects/HoG.png',
