@@ -18,3 +18,10 @@ code {
   font-family: 'Roboto', sans-serif;
   max-width: 840px;
 }
+
+aside {
+  grid-area: aside;
+  padding-left: 50px;
+  padding-top: 65px;
+}
+
