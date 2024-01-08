@@ -16,24 +16,26 @@ function App() {
       <div className={['container', conteinerStyleState].join(' ')}>
         <div className="content">
           <div className={state}>
-          <div className="circle-container">
-          <div className="circle">
-            <button
-              className="close"
-              onClick={() => setConteinerStyleState((state) => (state = ''))}
-            >
-              <i className="fas fa-times"></i>
-            </button>
-            <button
-              className="open"
-              onClick={() =>
-                setConteinerStyleState((state) => (state = 'show-nav'))
-              }
-            >
-              <i className="fas fa-bars"></i>
-            </button>
-          </div>
-        </div>
+            <div className="circle-container">
+              <div className="circle">
+                <button
+                  className="close"
+                  onClick={() =>
+                    setConteinerStyleState((state) => (state = ''))
+                  }
+                >
+                  <i className="fas fa-times"></i>
+                </button>
+                <button
+                  className="open"
+                  onClick={() =>
+                    setConteinerStyleState((state) => (state = 'show-nav'))
+                  }
+                >
+                  <i className="fas fa-bars"></i>
+                </button>
+              </div>
+            </div>
             <Header />
             <Router>
               <Routes>
@@ -60,15 +62,30 @@ function App() {
         <ul>
           <li>
             <i className="fas fa-user-alt"></i>
-            <a href='#' onClick={() => setConteinerStyleState((state) => (state = ''))}>About me</a>
+            <a
+              href="#"
+              onClick={() => setConteinerStyleState((state) => (state = ''))}
+            >
+              About me
+            </a>
           </li>
           <li>
-            <i className="fas fa-user-alt"></i>
-            <a href='#Projects' onClick={() => setConteinerStyleState((state) => (state = ''))}>Projects</a>
+            <i class="bi bi-journal-code"></i>
+            <a
+              href="#Projects"
+              onClick={() => setConteinerStyleState((state) => (state = ''))}
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <i class="fa-solid fa-paperclip"></i>
-            <a href='#Certificates' onClick={() => setConteinerStyleState((state) => (state = ''))}>Certificates</a>
+            <i class="bi bi-patch-check-fill"></i>
+            <a
+              href="#Certificates"
+              onClick={() => setConteinerStyleState((state) => (state = ''))}
+            >
+              Certificates
+            </a>
           </li>
         </ul>
       </nav>
