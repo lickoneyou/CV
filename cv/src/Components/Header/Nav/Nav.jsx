@@ -12,13 +12,13 @@ const Nav = ({ click }) => {
           </a>
         </li>
         <li>
-          <i class="bi bi-journal-code"></i>
+          <i className="bi bi-journal-code"></i>
           <a href="#Projects" onClick={click}>
             Projects
           </a>
         </li>
         <li>
-          <i class="bi bi-patch-check-fill"></i>
+          <i className="bi bi-patch-check-fill"></i>
           <a href="#Certificates" onClick={click}>
             Certificates
           </a>
