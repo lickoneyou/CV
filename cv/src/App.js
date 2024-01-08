@@ -63,7 +63,7 @@ function App() {
           <li>
             <i className="fas fa-user-alt"></i>
             <a
-              href="#"
+              href="!#"
               onClick={() => setConteinerStyleState((state) => (state = ''))}
             >
               About me
