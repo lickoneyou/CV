@@ -50,7 +50,7 @@ const employmentHistory = [
 const Main = (props) => {
   useEffect(() => {
     props.st('App')
-  }, [])
+  })
   return (
     <main>
       <MainProfile title={profile[0].title} descr={profile[0].descr} />
