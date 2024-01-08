@@ -17,7 +17,7 @@ const MainCertificates = (props) => {
   })
   return (
     <main className={styles.MainCertificates}>
-      <div style={{ display: loading ? 'block' : 'none', margin: '0 auto' }}>
+      <div style={{ display: loading ? 'block' : 'none', margin: '250px auto' }}>
         <Loader bgColor="#000" />
       </div>
       {certificates.map((el) => {
