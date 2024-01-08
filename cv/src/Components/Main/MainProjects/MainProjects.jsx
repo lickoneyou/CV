@@ -82,13 +82,13 @@ const projects = [
 const MainProjects = (props) => {
   useEffect(() => {
     props.st('otherApp')
-  }, [])
+  }, )
   return (
     <main className={styles.MainProjects}>
       {projects.map((el) => {
         return (
           <div className={styles.projectWrapper} key={el.title}>
-            <a href={el.link} target="_blank">
+            <a href={el.link} target="_blank" rel="noopener noreferrer">
               <img src={el.img} alt={el.title} />
               <span className={styles.img__mask}>
                 <b className={styles.title}>{el.title}</b>
