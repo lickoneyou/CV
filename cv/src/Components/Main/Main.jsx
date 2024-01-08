@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import MainProfile from './MainProfile/MainProfile'
 import MainList from './MainList/MainList'
-import styles from './Main.module.css'
+import './Main.module.css'
 
 const profile = [
   {
