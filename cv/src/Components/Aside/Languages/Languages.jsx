@@ -1,10 +1,6 @@
 import React from 'react'
 import styles from './Languages.module.css'
-
-const languages = [
-  { language: 'Russian', lvl: 'native' },
-  { language: 'English', lvl: 'А2' },
-]
+import { languages } from '../../../data/about'
 
 const Languages = () => {
   return (
