@@ -34,7 +34,7 @@ const certificates = [
 const MainCertificates = (props) => {
   useEffect(() => {
     props.st('otherApp')
-  }, [])
+  })
   return (
     <main className={styles.MainCertificates}>
       {certificates.map((el) => {
