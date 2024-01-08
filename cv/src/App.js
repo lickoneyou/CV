@@ -7,6 +7,7 @@ import MainCertificates from './Components/Main/MainCertificates/MainCertificate
 import MainProjects from './Components/Main/MainProjects/MainProjects'
 import Footer from './Components/Footer/Footer'
 import { useState } from 'react'
+import Nav from './Components/Header/Nav/Nav'
 
 function App() {
   const [state, setState] = useState('App')
@@ -57,38 +58,7 @@ function App() {
           </div>
         </div>
       </div>
-
-      <nav className="castomNav">
-        <ul>
-          <li>
-            <i className="fas fa-user-alt"></i>
-            <a
-              href="!#"
-              onClick={() => setConteinerStyleState((state) => (state = ''))}
-            >
-              About me
-            </a>
-          </li>
-          <li>
-            <i class="bi bi-journal-code"></i>
-            <a
-              href="#Projects"
-              onClick={() => setConteinerStyleState((state) => (state = ''))}
-            >
-              Projects
-            </a>
-          </li>
-          <li>
-            <i class="bi bi-patch-check-fill"></i>
-            <a
-              href="#Certificates"
-              onClick={() => setConteinerStyleState((state) => (state = ''))}
-            >
-              Certificates
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <Nav click={() => setConteinerStyleState((state) => (state = ''))} />
     </>
   )
 }
