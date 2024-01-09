@@ -1,6 +1,7 @@
 .projectWrapper img {
   max-width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .projectWrapper {
@@ -53,4 +54,31 @@
   z-index: 1;
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 815px) {
+  .MainProjects {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .MainProjects {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .MainProjects {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .projectWrapper {
+    width: 300px;
+    height: 260px;
+  }
 }
