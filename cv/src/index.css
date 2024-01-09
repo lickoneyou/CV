@@ -19,18 +19,6 @@ code {
   max-width: 840px;
 }
 
-aside {
-  grid-area: aside;
-  padding-left: 50px;
-  padding-top: 65px;
-}
-
-@media screen and (max-width: 620px) {
-  aside {
-    padding-left: 20px;
-  }
-}
-
 footer {
   grid-area: footer;
   display: flex;
