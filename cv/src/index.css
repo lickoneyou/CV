@@ -33,3 +33,10 @@ footer img {
 footer img:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 430px) {
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+}
