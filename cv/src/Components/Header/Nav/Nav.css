@@ -1,0 +1,50 @@
+.container.show-nav + nav li {
+  transform: translateX(0);
+  transition-delay: 0.3s;
+}
+
+.castomNav {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  z-index: 100;
+}
+
+.castomNav ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+
+.castomNav ul li {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 40px 0;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in;
+}
+
+.castomNav ul li i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.castomNav ul li + li {
+  margin-left: 15px;
+  transform: translateX(-150%);
+}
+
+.castomNav ul li + li + li {
+  margin-left: 30px;
+  transform: translateX(-200%);
+}
+
+.castomNav a {
+  color: #fafafa;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.castomNav a:hover {
+  color: #ff7979;
+  font-weight: bold;
+}

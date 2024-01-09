@@ -27,6 +27,12 @@
   margin-right: 2px;
 }
 
-.tittle{
+.tittle {
   margin: 30px 0 10px 0;
+}
+
+@media screen and (max-width: 530px) {
+  .tittle {
+    margin: 0 0 10px 0;
+  }
 }

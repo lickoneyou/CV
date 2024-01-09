@@ -1,9 +1,8 @@
-.profile{
+.profile {
   margin-bottom: 40px;
 }
 
-
-.title{
+.title {
   overflow: hidden;
 }
 
@@ -20,4 +19,10 @@
 
 .descr {
   margin-left: 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .descr {
+    font-size: 15px;
+  }
 }

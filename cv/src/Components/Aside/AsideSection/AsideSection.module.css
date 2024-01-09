@@ -1,7 +1,28 @@
-.asideSection h3, .asideSection p {
+.asideSection h3,
+.asideSection p {
   margin: 0;
 }
 
-.asideSection h3{
+.asideSection h3 {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 530px) {
+  .asideSection h3 {
+    margin-top: 0px;
+  }
+
+  .asideSection {
+    margin-bottom: 20px;
+  }
+
+  .asideSection:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .disc {
+    font-size: 14px;
+  }
 }

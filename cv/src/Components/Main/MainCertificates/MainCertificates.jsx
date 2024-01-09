@@ -1,47 +1,34 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from './MainCertificates.module.css'
-
-const certificates = [
-  {
-    title: 'THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)',
-    link: 'https://app.rs.school/certificate/ecw26weg',
-    img: './images/certificates/preRs.png',
-  },
-  {
-    title: 'THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT-END 2022Q3 (JAVASCRIPT)',
-    link: 'https://app.rs.school/certificate/d90px16p',
-    img: './images/certificates/RS.png',
-  },
-  {
-    title: 'FRONT END DEVELOPMENT LIBRARIES',
-    link: 'https://www.freecodecamp.org/certification/lickoneyou/front-end-development-libraries',
-    img: './images/certificates/reactCert.png',
-  },
-  {
-    title: 'JavaScript Algorithms and Data Structures Certification',
-    link:
-      'https://www.freecodecamp.org/certification/lickoneyou/javascript-algorithms-and-data-structures',
-    img: './images/certificates/Algorithms.png',
-  },
-  {
-    title: 'Responsive Web Design',
-    link:
-      'https://www.freecodecamp.org/certification/lickoneyou/responsive-web-design',
-    img: './images/certificates/WD.png',
-  },
-]
+import certificates from '../../../data/certificates'
+import Loader from 'react-js-loader'
 
 const MainCertificates = (props) => {
+  const [loading, setLoading] = useState(true)
+  const counter = useRef(0)
+  const imageLoaded = () => {
+    counter.current += 1
+    if (counter.current >= certificates.length) {
+      setLoading(false)
+    }
+  }
   useEffect(() => {
     props.st('otherApp')
-  }, [])
+  })
   return (
     <main className={styles.MainCertificates}>
+      <div style={{ display: loading ? 'block' : 'none', margin: '250px auto' }}>
+        <Loader bgColor="#000" />
+      </div>
       {certificates.map((el) => {
         return (
-          <div className={styles.certificateWrapper} key={el.title}>
-            <a href={el.link} target="_blank">
-              <img src={el.img} alt={el.title} />
+          <div
+            className={styles.certificateWrapper}
+            key={el.title}
+            style={{ display: loading ? 'none' : 'block' }}
+          >
+            <a href={el.link} target="_blank" rel="noopener noreferrer">
+              <img onLoad={imageLoaded} src={el.img} alt={el.title} />
               <span className={styles.img__mask}>
                 <b className={styles.title}>{el.title}</b>
               </span>

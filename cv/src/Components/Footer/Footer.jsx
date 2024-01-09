@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './Footer.module.css'
 
 const icons = [
   {
@@ -38,7 +37,7 @@ const Footer = () => {
   return (
     <footer>
       {icons.map((el) => (
-        <a href={el.href} key={el.id} target="_blank">
+        <a href={el.href} key={el.id} target="_blank" rel="noopener noreferrer">
           <img src={el.src} alt={el.id} />
         </a>
       ))}

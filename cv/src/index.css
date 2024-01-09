@@ -18,3 +18,25 @@ code {
   font-family: 'Roboto', sans-serif;
   max-width: 840px;
 }
+
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  margin-right: 10px;
+  transition: 1s;
+}
+
+footer img:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 430px) {
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+}

@@ -12,16 +12,16 @@ const sectionProps = [
 
 const Aside = () => {
   return (
-    <aside>
-      <section>
+    <aside className={styles.aside}>
+      <section className={styles.aboutSection}>
         {sectionProps.map((el) => (
           <AsideSection title={el.title} disc={el.disc} key={el.title} />
         ))}
       </section>
-      <section>
+      <section className={styles.languagesSection}>
         <Languages />
       </section>
-      <section>
+      <section className={styles.skillsSection}>
         <Skills />
       </section>
     </aside>

@@ -3,14 +3,28 @@
   justify-content: space-between;
 }
 
-.tittle{
+.tittle {
   margin: 50px 0 10px 0;
 }
 
-.language, .lvl{
-margin: 0;
+.language,
+.lvl {
+  margin: 0;
 }
 
-.language{
+.language {
   font-weight: bold;
+}
+
+@media screen and (max-width: 530px) {
+  .tittle {
+    margin: 0px 0 10px 0;
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .lvl {
+    font-size: 14px;
+  }
 }

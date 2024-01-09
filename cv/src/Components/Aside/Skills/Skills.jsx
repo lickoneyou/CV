@@ -1,14 +1,6 @@
 import React from 'react'
 import styles from './Skills.module.css'
-
-const skills = [
-  { skill: 'JavaScript', lvl: 4 },
-  { skill: 'TypeScript', lvl: 2 },
-  { skill: 'React', lvl: 3 },
-  { skill: 'Redux', lvl: 3 },
-  { skill: 'HTML', lvl: 3 },
-  { skill: 'CSS', lvl: 3 },
-]
+import { skills } from '../../../data/about'
 
 const skillCheck = [1, 2, 3, 4]
 
