@@ -77,9 +77,12 @@ header h3 {
   }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 565px) {
   .contactsWrapper {
     top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .dispFlex {
