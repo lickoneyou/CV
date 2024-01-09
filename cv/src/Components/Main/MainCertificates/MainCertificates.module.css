@@ -20,7 +20,7 @@
   min-height: 500px;
 }
 
-.img__mask{
+.img__mask {
   transition: all 700ms ease;
 }
 
@@ -46,9 +46,23 @@
   opacity: 1;
 }
 
-.title{
+.title {
   width: 100%;
   z-index: 1;
   color: white;
   text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+  .MainCertificates {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .MainCertificates {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
