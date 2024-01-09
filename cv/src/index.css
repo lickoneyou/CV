@@ -25,6 +25,12 @@ aside {
   padding-top: 65px;
 }
 
+@media screen and (max-width: 620px) {
+  aside {
+    padding-left: 20px;
+  }
+}
+
 footer {
   grid-area: footer;
   display: flex;
@@ -39,4 +45,3 @@ footer img {
 footer img:hover {
   transform: scale(1.2);
 }
-

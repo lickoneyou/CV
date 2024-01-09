@@ -114,3 +114,18 @@ body {
     display: block;
   }
 }
+
+@media screen and (max-width: 530px) {
+  .App {
+  display: grid;
+  grid-template-areas:
+    'header header'
+    'main main'
+    'aside aside'
+    'footer footer';
+  grid-template-rows: 200px 1fr 1fr 50px;
+  grid-template-columns: 0.8fr 2fr;
+  position: relative;
+  overflow: hidden;
+}
+}

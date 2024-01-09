@@ -2,7 +2,7 @@
   margin-bottom: 40px;
 }
 
-.title{
+.title {
   overflow: hidden;
 }
 
@@ -17,14 +17,21 @@
   border-top: 5px solid rgb(220, 217, 217);
 }
 
-.descr{
+.descr {
   margin-left: 10px;
 }
 
-.descr h3, .descr p {
+.descr h3,
+.descr p {
   margin: 0;
 }
 
 .descr p {
   margin: 0px 0 15px 10px;
+}
+
+@media screen and (max-width: 360px) {
+  .descr p {
+    font-size: 14px;
+  }
 }
