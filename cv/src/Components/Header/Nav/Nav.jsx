@@ -7,7 +7,7 @@ const Nav = ({ click }) => {
       <ul>
         <li>
           <i className="fas fa-user-alt"></i>
-          <a href="!#" onClick={click}>
+          <a href="#" onClick={click}>
             About me
           </a>
         </li>
