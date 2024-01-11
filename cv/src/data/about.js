@@ -50,10 +50,9 @@ const languages = [
 const skills = [
   { skill: 'JavaScript', lvl: 4 },
   { skill: 'TypeScript', lvl: 2 },
-  { skill: 'React', lvl: 3 },
-  { skill: 'Redux', lvl: 3 },
-  { skill: 'HTML', lvl: 3 },
-  { skill: 'CSS', lvl: 3 },
+  { skill: 'React / Redux', lvl: 3 },
+  { skill: 'HTML / CSS', lvl: 3 },
+  { skill: 'Vue / Vuex', lvl: 1 },
 ]
 
 export { profile, education, employmentHistory, languages, skills }
