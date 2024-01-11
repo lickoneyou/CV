@@ -40,6 +40,11 @@ const projects = [
     img: './images/projects/Gogames.png',
   },
   {
+    title: 'OMDBMovie VUE/VUEX',
+    link: 'https://lickoneyou.github.io/OMDBmovies/dist/',
+    img: './images/projects/omdbMovie.png',
+  },
+  {
     title: 'HOUSE OF GAMBLING',
     link: 'https://lickoneyou.github.io/HouseOfGambling/',
     img: './images/projects/HoG.png',
