@@ -8,7 +8,7 @@ const Header = () => {
       <div className={styles.contactsWrapper}>
         <div>
           <h1>Kiryl Khomchanka</h1>
-          <h3>Front-End Wed Developer</h3>
+          <h3>Front-End Web Developer</h3>
         </div>
         <div className={`${styles.dispFlex} ${styles.contacts}`}>
           <div className={`${styles.dispFlex} ${styles.contactsEmail}`}>
