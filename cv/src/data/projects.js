@@ -10,14 +10,14 @@ const projects = [
     img: './images/projects/ToDoReact.png',
   },
   {
-    title: 'Canvas Classic Snake Game',
-    link: 'https://lickoneyou.github.io/classicSnakeGame/',
-    img: './images/projects/snakeGame.png',
-  },
-  {
     title: 'React Cyberpunk',
     link: 'https://lickoneyou.github.io/Cyberpunk/cyberpunk/build/#',
     img: './images/projects/cyberpunk.png',
+  },
+  {
+    title: '15 puzzle',
+    link: 'https://lickoneyou.github.io/15puzzle/build/',
+    img: './images/projects/15puzzle.png',
   },
   {
     title: 'Race',
