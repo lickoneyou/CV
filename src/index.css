@@ -39,6 +39,17 @@ a {
   color: black;
 }
 
+.profileLink:hover {
+  color: rgba(80, 74, 74, 0.433);
+}
+
+.linkIcon {
+  width: 14px;
+  position: relative;
+  top: -4px;
+  left: 2px;
+}
+
 @media screen and (max-width: 430px) {
   footer img {
     width: 40px;
