@@ -14,7 +14,7 @@ const profile = [
             >
               Created 𝟏𝟖 websites and applications
             </a>
-            <img src="./images/icons/link.png" className="linkIcon" />
+            <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
           </li>
           <li>Created 𝟑 browser extensions</li>
           <li>
@@ -26,7 +26,7 @@ const profile = [
             >
               Completed 𝟓𝟎 course assignments 𝟓𝟎 𝐏𝐫𝐨𝐣𝐞𝐜𝐭𝐬 𝟓𝟎 𝐃𝐚𝐲𝐬
             </a>
-            <img src="./images/icons/link.png" className="linkIcon" />
+            <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
           </li>
           <li>
             <a
@@ -37,7 +37,7 @@ const profile = [
             >
               Received 𝟐 certificate 𝐑𝐒 𝐒𝐜𝐡𝐨𝐨𝐥
             </a>
-            <img src="./images/icons/link.png" className="linkIcon" />
+            <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
           </li>
           <ul>
             <li>
@@ -49,7 +49,7 @@ const profile = [
               >
                 THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)
               </a>
-              <img src="./images/icons/link.png" className="linkIcon" />
+              <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
             </li>
             <li>
               <a
@@ -61,7 +61,7 @@ const profile = [
                 THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT- END 2022Q3
                 (JAVASCRIPT)
               </a>
-              <img src="./images/icons/link.png" className="linkIcon" />
+              <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
             </li>
           </ul>
           <li>
@@ -73,7 +73,7 @@ const profile = [
             >
               Received 4 certificates 𝐟𝐫𝐞𝐞𝐂𝐨𝐝𝐞𝐂𝐚𝐦𝐩
             </a>
-            <img src="./images/icons/link.png" className="linkIcon" />
+            <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
           </li>
           <ul>
             <li>
@@ -85,7 +85,7 @@ const profile = [
               >
                 Front End Development Libraries
               </a>
-              <img src="./images/icons/link.png" className="linkIcon" />
+              <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
             </li>
             <li>
               <a
@@ -96,7 +96,7 @@ const profile = [
               >
                 Legacy JavaScript Algorithms and Data Structures Certification
               </a>
-              <img src="./images/icons/link.png" className="linkIcon" />
+              <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
             </li>
             <li>
               <a
@@ -107,7 +107,7 @@ const profile = [
               >
                 JavaScript Algorithms and Data Structures (Beta)
               </a>
-              <img src="./images/icons/link.png" className="linkIcon" />
+              <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
             </li>
             <li>
               <a
@@ -118,7 +118,7 @@ const profile = [
               >
                 Responsive Web Design
               </a>
-              <img src="./images/icons/link.png" className="linkIcon" />
+              <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
             </li>
           </ul>
           <li>
@@ -130,7 +130,7 @@ const profile = [
             >
               Scored 𝟐𝟓𝟎𝟎+ points 𝐂𝐨𝐝𝐞𝐰𝐚𝐫𝐬
             </a>
-            <img src="./images/icons/link.png" className="linkIcon" />
+            <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
           </li>
           <li>
             <a
@@ -142,7 +142,7 @@ const profile = [
               Completed 𝟏𝟖 courses from 𝐁𝐨𝐠𝐝𝐚𝐧 𝐒𝐭𝐚𝐬𝐡𝐜𝐡𝐮𝐤, 𝐢𝐓𝐆𝐢𝐝, 𝐋𝐨𝐟𝐭𝐬𝐜𝐡𝐨𝐨𝐥,
               𝐏𝐮𝐫𝐩𝐥𝐞𝐒𝐜𝐡𝐨𝐨𝐥 and others
             </a>
-            <img src="./images/icons/link.png" className="linkIcon" />
+            <img src="./images/icons/link.png" className="linkIcon" alt='linkIcon'/>
           </li>
         </ul>
       </div>
