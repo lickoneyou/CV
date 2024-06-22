@@ -34,6 +34,11 @@ footer img:hover {
   transform: scale(1.2);
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 @media screen and (max-width: 430px) {
   footer img {
     width: 40px;
