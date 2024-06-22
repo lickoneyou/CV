@@ -5,7 +5,15 @@ const profile = [
       <div>
         <p>What I achieved:</p>
         <ul>
-          <li>Created 𝟏𝟖 websites and applications</li>
+          <li>
+            <a
+              href="https://lickoneyou.github.io/CV/#Projects"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Created 𝟏𝟖 websites and applications
+            </a>
+          </li>
           <li>Created 𝟑 browser extensions</li>
           <li>
             <a
@@ -27,12 +35,20 @@ const profile = [
           </li>
           <ul>
             <li>
-              <a target="_blank" rel="noopener noreferrer">
-                THE ROLLING SCOPES SCHOOL JS/FE PRE- SCHOOL 2022Q2 (JAVASCRIPT)
+              <a
+                href="https://app.rs.school/certificate/ecw26weg"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                THE ROLLING SCOPES SCHOOL JS/FE PRE-SCHOOL 2022Q2 (JAVASCRIPT)
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://app.rs.school/certificate/d90px16p"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 THE ROLLING SCOPES SCHOOL JAVASCRIPT/FRONT- END 2022Q3
                 (JAVASCRIPT)
               </a>
@@ -49,26 +65,48 @@ const profile = [
           </li>
           <ul>
             <li>
-              <a target="_blank" rel="noopener noreferrer">
-                FRONT END DEVELOPMENT LIBRARIES
+              <a
+                href="https://www.freecodecamp.org/certification/lickoneyou/front-end-development-libraries"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Front End Development Libraries
               </a>
             </li>
             <li>
-              <a>JavaScript Algorithms and Data Structures Certification</a>
+              <a
+                href="https://www.freecodecamp.org/certification/lickoneyou/javascript-algorithms-and-data-structures"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Legacy JavaScript Algorithms and Data Structures Certification
+              </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.freecodecamp.org/certification/lickoneyou/javascript-algorithms-and-data-structures-v8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 JavaScript Algorithms and Data Structures (Beta)
               </a>
             </li>
             <li>
-              <a target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.freecodecamp.org/certification/lickoneyou/responsive-web-design"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Responsive Web Design
               </a>
             </li>
           </ul>
           <li>
-            <a target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.codewars.com/users/lickoneyou"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Scored 𝟐𝟓𝟎𝟎+ points 𝐂𝐨𝐝𝐞𝐰𝐚𝐫𝐬
             </a>
           </li>
