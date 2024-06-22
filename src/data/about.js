@@ -120,7 +120,7 @@ const employmentHistory = [
   {
     title: 'Yandex',
     specialization: 'Support',
-    age: '2020 - actual',
+    age: '2020 - 2024',
   },
 ]
 
