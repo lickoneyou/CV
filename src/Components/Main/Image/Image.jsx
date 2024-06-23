@@ -6,7 +6,11 @@ const Image = ({ src, alt }) => {
   const [imageReady, setImageReady] = useState(false)
 
   useEffect(() => {
-    setImageReady(true)
+    const fn = async () => {
+      await fetch('src')
+      setImageReady(true)
+    }
+    fn()
   }, [])
 
   return (
