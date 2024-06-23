@@ -16,7 +16,10 @@ const ControlledPagination = ({ pages }) => {
           type: 'CHANGE_PAGE',
           payload: e,
         })
-        window.scrollTo(0, 0)
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        })
       }}
       total={pages}
       style={{ display: 'flex', justifyContent: 'center' }}
