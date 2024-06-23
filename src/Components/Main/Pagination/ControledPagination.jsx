@@ -1,9 +1,10 @@
 import { Pagination } from '@mantine/core'
 import { useState } from 'react'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 
 const ControlledPagination = ({ pages }) => {
-  const [activePage, setPage] = useState(1)
+  const page = useSelector((state) => state)
+  const [activePage, setPage] = useState(page.pagesReducer)
   const dispatch = useDispatch()
 
   return (
