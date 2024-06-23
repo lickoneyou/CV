@@ -5,7 +5,7 @@
     'aside main'
     'footer footer';
   column-gap: 40px;
-  grid-template-rows: 200px 1fr 50px;
+  grid-template-rows: 287px 1fr 50px;
   grid-template-columns: 0.8fr 2fr;
   position: relative;
   overflow: hidden;
@@ -19,7 +19,7 @@
     'main main'
     'footer footer';
   column-gap: 40px;
-  grid-template-rows: 200px 1fr 50px;
+  grid-template-rows: 287px 1fr 50px;
   grid-template-columns: 0.8fr 2fr;
   position: relative;
   overflow: hidden;

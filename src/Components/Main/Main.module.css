@@ -1,7 +1,6 @@
 main {
   grid-area: main;
   padding-right: 50px;
-  padding-top: 65px;
 }
 
 @media screen and (max-width: 620px) {
