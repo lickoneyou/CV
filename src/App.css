@@ -23,6 +23,7 @@
   grid-template-columns: 0.8fr 2fr;
   position: relative;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
