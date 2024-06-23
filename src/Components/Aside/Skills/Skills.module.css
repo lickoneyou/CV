@@ -1,34 +1,20 @@
-.skillCheckWrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.skillPoints {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 5px;
-}
-
-.skillCheckColorBlack {
-  width: 25%;
-  height: 6px;
-  background-color: rgb(51, 51, 51);
-  border: 1px solid rgb(51, 51, 51);
-  border-radius: 10px;
-  margin-right: 2px;
-}
-
-.skillCheckColorWhite {
-  width: 25%;
-  height: 6px;
-  background-color: white;
-  border: 1px solid rgb(51, 51, 51);
-  border-radius: 10px;
-  margin-right: 2px;
-}
-
 .tittle {
   margin: 30px 0 10px 0;
+}
+
+.skillsWrapper {
+  display: flex;
+  gap: 3px;
+  margin-bottom: 10px;
+}
+
+.skillsImg {
+  width: 30px;
+  transition: all 500ms ease;
+}
+
+.skillsImg:hover {
+  transform: scale(1.5);
 }
 
 @media screen and (max-width: 530px) {
