@@ -22,7 +22,12 @@ const ControlledPagination = ({ pages }) => {
         })
       }}
       total={pages}
-      style={{ display: 'flex', justifyContent: 'center' }}
+      color="#FE4500"
+      style={{
+        display: 'flex',
+        justifyContent: 'center',
+        paddingBottom: '15px',
+      }}
     />
   )
 }
