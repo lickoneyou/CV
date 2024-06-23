@@ -9,6 +9,7 @@
   grid-template-columns: 0.8fr 2fr;
   position: relative;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 
 .otherApp {
