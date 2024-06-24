@@ -2,16 +2,6 @@ main {
   grid-area: main;
 }
 
-@media screen and (max-width: 620px) {
-  main {
-  }
-}
-
-@media screen and (max-width: 530px) {
-  main {
-  }
-}
-
 @media screen and (max-width: 440px) {
   main {
     padding: 10px 10px 0px 10px;
