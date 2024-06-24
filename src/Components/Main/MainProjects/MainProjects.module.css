@@ -21,6 +21,10 @@
   .MainProjects {
     grid-template-columns: 1fr;
   }
+  .projectWrapper {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (max-width: 650px) {
