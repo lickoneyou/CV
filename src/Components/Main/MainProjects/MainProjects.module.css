@@ -20,6 +20,7 @@
 @media screen and (max-width: 815px) {
   .MainProjects {
     grid-template-columns: 1fr;
+    margin-top: 0;
   }
   .projectWrapper {
     margin-left: auto;
