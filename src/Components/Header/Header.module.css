@@ -1,7 +1,7 @@
 header {
   display: flex;
   grid-area: header;
-  background: linear-gradient(#333333 71%, #FAFAFA 29%);
+  background: linear-gradient(#333333 71%, #fafafa 29%);
   padding: 0 50px;
   position: relative;
 }
@@ -43,9 +43,10 @@ header h3 {
 }
 
 .contactsWrapper {
-  position: relative;
-  top: 100px;
-  left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 35px;
 }
 
 .contactsEmail {
@@ -62,6 +63,7 @@ header h3 {
 @media screen and (max-width: 830px) {
   header {
     justify-content: center;
+    background: linear-gradient(#333333 73%, #fafafa 27%);
   }
   .myPhoto {
     display: none;
@@ -78,13 +80,9 @@ header h3 {
 }
 
 @media screen and (max-width: 565px) {
-  .contactsWrapper {
-    top: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  header {
+    padding: 0 10px;
   }
-
   .dispFlex {
     justify-content: center;
   }
@@ -93,6 +91,8 @@ header h3 {
 @media screen and (max-width: 440px) {
   header {
     padding: 0 10px;
+    background: linear-gradient(#333333 80%, #fafafa 20%);
+    min-height: 300px;
   }
 
   .contacts {
@@ -105,6 +105,8 @@ header h3 {
   }
 
   .contactsWrapper {
-    top: 80px;
+    padding: 0;
+    display: flex;
+    align-items: center;
   }
 }
