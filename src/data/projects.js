@@ -18,8 +18,9 @@ const projects = [
   },
   {
     title: '15 puzzle',
-    link: 'https://lickoneyou.github.io/15puzzle/build/',
+    link: 'https://lickoneyou.github.io/15puzzle/',
     img: './images/projects/15puzzle.png',
+    github: 'https://github.com/lickoneyou/15puzzle',
   },
   {
     title: 'Race',
