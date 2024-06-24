@@ -3,6 +3,7 @@ const projects = [
     title: '50 Projects 50 Days',
     link: 'https://lickoneyou.github.io/50projectsCarousel/',
     img: './images/projects/50projects50days.png',
+    github: 'https://github.com/lickoneyou/50projects50days',
   },
   {
     title: 'React ToDo',
