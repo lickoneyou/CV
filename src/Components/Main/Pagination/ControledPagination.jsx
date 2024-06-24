@@ -28,6 +28,8 @@ const ControlledPagination = ({ pages }) => {
         display: 'flex',
         justifyContent: 'center',
         paddingBottom: '15px',
+        zIndex: '900',
+        position: 'relative',
       }}
     />
   )
