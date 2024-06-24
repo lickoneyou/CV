@@ -18,15 +18,11 @@ const MainProjects = (props) => {
   return (
     <main>
       <div className={styles.MainProjects}>
-        
         {myProjects.map((el) => {
           return (
-            <div
-              className={styles.projectWrapper}
-              key={el.title}
-            >
-              <a href={el.link} target="_blank" rel="noopener noreferrer">
-                <Image src={el.img} alt={el.title}/>
+            <div className={styles.projectWrapper} key={el.title}>
+              <a>
+                <Image src={el.img} alt={el.title} github={el.github} link={el.link}/>
               </a>
             </div>
           )
