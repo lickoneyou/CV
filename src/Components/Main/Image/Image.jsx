@@ -29,7 +29,7 @@ const Image = ({ src, alt, github, link }) => {
               >
                 <img
                   style={{ width: '15px', marginRight: '10px' }}
-                  src="../../../../public/images/icons/githubBtn.png"
+                  src="./images/icons/githubBtn.png"
                   alt='icon'
                 />
                 GitHub
@@ -44,7 +44,7 @@ const Image = ({ src, alt, github, link }) => {
               >
                 <img
                   style={{ width: '20px' }}
-                  src="../images/icons/deploy.png"
+                  src="./images/icons/deploy.png"
                   alt='icon'
                 />
                 Deploy
