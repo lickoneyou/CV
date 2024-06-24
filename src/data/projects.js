@@ -6,8 +6,9 @@ const projects = [
   },
   {
     title: 'React ToDo',
-    link: 'https://lickoneyou.github.io/React_ToDo/build/',
+    link: 'https://lickoneyou.github.io/React_ToDo/',
     img: './images/projects/ToDoReact.png',
+    github: 'https://github.com/lickoneyou/React_ToDo/tree/main',
   },
   {
     title: 'React Cyberpunk',
