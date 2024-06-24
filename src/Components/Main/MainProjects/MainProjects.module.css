@@ -6,15 +6,17 @@
   height: 295px;
   display: block;
   position: relative;
+  margin: 0 auto;
 }
 
 .MainProjects {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 15px;
-  padding-left: 50px;
   margin-bottom: 20px;
+  padding: 0 50px;
   min-height: 500px;
+  row-gap: 15px;
 }
 
 @media screen and (max-width: 815px) {

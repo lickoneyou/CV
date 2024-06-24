@@ -1,17 +1,14 @@
 main {
   grid-area: main;
-  padding-right: 50px;
 }
 
 @media screen and (max-width: 620px) {
   main {
-    padding-right: 20px;
   }
 }
 
 @media screen and (max-width: 530px) {
   main {
-    padding: 0 50px;
   }
 }
 
