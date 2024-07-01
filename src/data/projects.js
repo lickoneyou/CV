@@ -69,6 +69,7 @@ const projects = [
     title: 'Shelter',
     link: 'https://lickoneyou.github.io/Shelter/',
     img: './images/projects/Shelter.png',
+    github: 'https://github.com/lickoneyou/Shelter',
   },
   {
     title: 'DART SERVICE MANAGER',
