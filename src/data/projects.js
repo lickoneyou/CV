@@ -75,6 +75,7 @@ const projects = [
     title: 'DART SERVICE MANAGER',
     link: 'https://lickoneyou.github.io/DART_SERVICE_MANAGER/',
     img: './images/projects/dart.png',
+    github: 'https://github.com/lickoneyou/DART_SERVICE_MANAGER',
   },
   {
     title: 'Momentum',
