@@ -66,6 +66,11 @@ const projects = [
     github: 'https://github.com/lickoneyou/classicSnakeGame',
   },
   {
+    title: 'Makeunion Tasks',
+    img: './images/projects/mut.jpg',
+    github: 'https://github.com/lickoneyou/Makeunion_Tasks',
+  },
+  {
     title: 'HOUSE OF GAMBLING',
     link: 'https://lickoneyou.github.io/HouseOfGambling/',
     img: './images/projects/HoG.png',
