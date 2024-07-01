@@ -97,8 +97,9 @@ const projects = [
   },
   {
     title: 'Redux Todo',
-    link: 'https://lickoneyou.github.io/ReduxTodo/build/',
+    link: 'https://lickoneyou.github.io/ReduxTodo/',
     img: './images/projects/reduxTodo.png',
+    github: 'https://github.com/lickoneyou/ReduxTodo',
   },
   {
     title: 'Allods Online',
