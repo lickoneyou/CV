@@ -31,8 +31,9 @@ const projects = [
   },
   {
     title: 'React|Redux Portfolio',
-    link: 'https://lickoneyou.github.io/Portfolio/portfolio/build/',
+    link: 'https://lickoneyou.github.io/Portfolio/',
     img: './images/projects/redux-reactPortfolio.png',
+    github: 'https://github.com/lickoneyou/Portfolio/tree/main',
   },
   {
     title: 'React|Redux Store',
