@@ -88,6 +88,11 @@ const projects = [
     img: './images/projects/Shelter.png',
     github: 'https://github.com/lickoneyou/Shelter',
   },
+    {
+    title: 'Learn WordPress',
+    img: './images/projects/Wordpress.jpg',
+    github: 'https://github.com/lickoneyou/WordPress',
+  },
   {
     title: 'PHP Tasks',
     img: './images/projects/phpTasks.jpg',
