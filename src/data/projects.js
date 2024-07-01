@@ -33,7 +33,7 @@ const projects = [
     title: 'React|Redux Portfolio',
     link: 'https://lickoneyou.github.io/Portfolio/',
     img: './images/projects/redux-reactPortfolio.png',
-    github: 'https://github.com/lickoneyou/Portfolio/tree/main',
+    github: 'https://github.com/lickoneyou/Portfolio/',
   },
   {
     title: 'React|Redux Store',
