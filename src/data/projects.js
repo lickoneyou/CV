@@ -87,12 +87,13 @@ const projects = [
     title: 'JS ToDo',
     link: 'https://lickoneyou.github.io/ToDo_JS/',
     img: './images/projects/ToDoJS.png',
-    github: 'https://github.com/lickoneyou/ToDo_JS'
+    github: 'https://github.com/lickoneyou/ToDo_JS',
   },
   {
     title: 'Plants',
     link: 'https://lickoneyou.github.io/Plants/',
     img: './images/projects/plants.png',
+    github: 'https://github.com/lickoneyou/Plants',
   },
   {
     title: 'Redux Todo',
