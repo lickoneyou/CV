@@ -60,6 +60,12 @@ const projects = [
     github: 'https://github.com/lickoneyou/OMDBmovies',
   },
   {
+    title: 'Classic Snake Game',
+    link: 'https://lickoneyou.github.io/classicSnakeGame/',
+    img: './images/projects/snakeGame.png',
+    github: 'https://github.com/lickoneyou/classicSnakeGame',
+  },
+  {
     title: 'HOUSE OF GAMBLING',
     link: 'https://lickoneyou.github.io/HouseOfGambling/',
     img: './images/projects/HoG.png',
