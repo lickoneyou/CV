@@ -55,8 +55,9 @@ const projects = [
   },
   {
     title: 'OMDBMovie VUE/VUEX',
-    link: 'https://lickoneyou.github.io/OMDBmovies/dist/',
+    link: 'https://lickoneyou.github.io/OMDBmovies/',
     img: './images/projects/omdbMovie.png',
+    github: 'https://github.com/lickoneyou/OMDBmovies',
   },
   {
     title: 'HOUSE OF GAMBLING',
