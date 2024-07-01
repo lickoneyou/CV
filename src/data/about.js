@@ -262,7 +262,7 @@ const skills = [
     './images/tools/reacttestignlibrary.png',
     './images/tools/postman.svg',
   ],
-  ['./images/tools/wordpress.svg'],
+  ['./images/tools/php.svg', './images/tools/wordpress.svg'],
   [
     './images/tools/git.svg',
     './images/tools/figma.svg',
