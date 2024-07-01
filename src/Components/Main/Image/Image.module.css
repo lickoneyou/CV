@@ -57,8 +57,9 @@
   color: white;
   font-weight: 700;
   border: 2px solid white;
-  padding: 5px 15px;
+  padding: 10px 15px;
   transition: all 200ms ease;
+  width: 50%;
 }
 
 .linkButton:hover {

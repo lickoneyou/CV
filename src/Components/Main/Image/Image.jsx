@@ -28,9 +28,9 @@ const Image = ({ src, alt, github, link }) => {
                 rel="noopener noreferrer"
               >
                 <img
-                  style={{ width: '15px', marginRight: '10px' }}
+                  style={{ width: '20px', marginRight: '10px' }}
                   src="./images/icons/githubBtn.png"
-                  alt='icon'
+                  alt="icon"
                 />
                 GitHub
               </a>
@@ -45,7 +45,7 @@ const Image = ({ src, alt, github, link }) => {
                 <img
                   style={{ width: '20px' }}
                   src="./images/icons/deploy.png"
-                  alt='icon'
+                  alt="icon"
                 />
                 Deploy
               </a>
