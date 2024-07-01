@@ -49,8 +49,9 @@ const projects = [
   },
   {
     title: 'Go Games',
-    link: 'https://lickoneyou.github.io/Gogames/build/',
+    link: 'https://lickoneyou.github.io/Gogames/',
     img: './images/projects/Gogames.png',
+    github: 'https://github.com/lickoneyou/Gogames',
   },
   {
     title: 'OMDBMovie VUE/VUEX',
