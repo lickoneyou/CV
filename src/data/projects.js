@@ -105,6 +105,7 @@ const projects = [
     title: 'Allods Online',
     link: 'https://lickoneyou.github.io/Allods_Online/',
     img: './images/projects/allods.png',
+    github: 'https://github.com/lickoneyou/Allods_Online',
   },
 ]
 
