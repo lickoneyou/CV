@@ -25,8 +25,9 @@ const projects = [
   },
   {
     title: 'Race',
-    link: 'https://lickoneyou.github.io/Race/build/#',
+    link: 'https://lickoneyou.github.io/Race/',
     img: './images/projects/Race.png',
+    github: 'https://github.com/lickoneyou/Race/tree/master',
   },
   {
     title: 'React|Redux Portfolio',
