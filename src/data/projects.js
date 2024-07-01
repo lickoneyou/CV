@@ -63,6 +63,7 @@ const projects = [
     title: 'HOUSE OF GAMBLING',
     link: 'https://lickoneyou.github.io/HouseOfGambling/',
     img: './images/projects/HoG.png',
+    github: 'https://github.com/lickoneyou/HouseOfGambling',
   },
   {
     title: 'Shelter',
