@@ -81,6 +81,7 @@ const projects = [
     title: 'Momentum',
     link: 'https://lickoneyou.github.io/momentum/',
     img: './images/projects/momentum.png',
+    github: 'https://github.com/lickoneyou/momentum',
   },
   {
     title: 'JS ToDo',
