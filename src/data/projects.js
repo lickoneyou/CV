@@ -38,8 +38,14 @@ const projects = [
   {
     title: 'React|Redux Store',
     link: 'https://lickoneyou.github.io/Store/',
-    img: './images/projects/store.png',
+    img: './images/projects/',
     github: 'https://github.com/lickoneyou/Store/',
+  },
+  {
+    title: 'Interview Questions App',
+    link: 'https://interview-questions-app-snowy.vercel.app/',
+    img: './images/projects/iqa.png',
+    github: 'https://github.com/lickoneyou/interviewQuestionsApp/',
   },
   {
     title: 'Museum',
