@@ -15,7 +15,7 @@ const projects = [
     title: 'React Cyberpunk',
     link: 'https://lickoneyou.github.io/Cyberpunk/',
     img: './images/projects/cyberpunk.png',
-    github: 'https://github.com/lickoneyou/Cyberpunk/tree/main',
+    github: 'https://github.com/lickoneyou/Cyberpunk/',
   },
   {
     title: '15 puzzle',
