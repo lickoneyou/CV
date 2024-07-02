@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-js-loader'
-import styles from './Image.module.css'
+import styles from './ProjectImage.module.css'
 
-const Image = ({ src, alt, github, link }) => {
+const ProjectImage = ({ src, alt, github, link }) => {
   const [imageReady, setImageReady] = useState(false)
 
   useEffect(() => {
@@ -61,4 +61,4 @@ const Image = ({ src, alt, github, link }) => {
   )
 }
 
-export default Image
+export default ProjectImage

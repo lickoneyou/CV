@@ -4,7 +4,8 @@ import projects from '../../../data/projects'
 import ControlledPagination from '../Pagination/ControledPagination'
 import _ from 'lodash'
 import { useSelector } from 'react-redux'
-import Image from '../Image/Image'
+import ProjectImage from '../ProjectImage/ProjectImage'
+
 
 const MainProjects = (props) => {
   useEffect(() => {
@@ -22,7 +23,7 @@ const MainProjects = (props) => {
           return (
             <div className={styles.projectWrapper} key={el.title}>
               <a>
-                <Image src={el.img} alt={el.title} github={el.github} link={el.link}/>
+                <ProjectImage src={el.img} alt={el.title} github={el.github} link={el.link}/>
               </a>
             </div>
           )
