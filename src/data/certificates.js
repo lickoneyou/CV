@@ -22,6 +22,12 @@ const certificates = [
     img: './images/certificates/Algorithms.png',
   },
   {
+    title: 'JavaScript Algorithms and Data Structures (Beta)',
+    link:
+      'https://www.freecodecamp.org/certification/lickoneyou/javascript-algorithms-and-data-structures-v8',
+    img: './images/certificates/algorithms(beta).png',
+  },
+  {
     title: 'Responsive Web Design',
     link:
       'https://www.freecodecamp.org/certification/lickoneyou/responsive-web-design',
