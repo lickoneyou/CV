@@ -99,6 +99,12 @@ const projects = [
     github: 'https://github.com/lickoneyou/PHP_TASKS',
   },
   {
+    title: 'RUMTIBET',
+    link: 'https://lickoneyou.github.io/RUMTIBET/',
+    img: './images/projects/rumtibet.png',
+    github: 'https://github.com/lickoneyou/RUMTIBET',
+  },
+  {
     title: 'DART SERVICE MANAGER',
     link: 'https://lickoneyou.github.io/DART_SERVICE_MANAGER/',
     img: './images/projects/dart.png',
