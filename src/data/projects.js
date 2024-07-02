@@ -6,6 +6,12 @@ const projects = [
     github: 'https://github.com/lickoneyou/50projects50days',
   },
   {
+    title: 'MovieSearchApp',
+    link: 'https://movie-search-app-azure.vercel.app/',
+    img: './images/projects/MovieSearchApp.png',
+    github: 'https://github.com/lickoneyou/MovieSearchApp',
+  },
+  {
     title: 'React ToDo',
     link: 'https://lickoneyou.github.io/React_ToDo/',
     img: './images/projects/ToDoReact.png',
