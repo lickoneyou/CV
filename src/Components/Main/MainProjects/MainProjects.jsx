@@ -13,7 +13,7 @@ const MainProjects = (props) => {
   })
 
   const chunkProjects = _.chunk(projects, 6)
-  const page = useSelector((data) => data.pagesReducer.projectsPage)
+  const page = useSelector((data) => data.pagesReducer)
   const myProjects = chunkProjects[page - 1]
 
   return (
@@ -29,7 +29,7 @@ const MainProjects = (props) => {
           )
         })}
       </div>
-      <ControlledPagination pages={chunkProjects.length} action='CHANGE_PROJECT_PAGE' page='projectsPage'/>
+      <ControlledPagination pages={chunkProjects.length} />
     </main>
   )
 }

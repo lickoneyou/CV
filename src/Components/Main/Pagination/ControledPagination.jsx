@@ -2,9 +2,9 @@ import { Pagination } from '@mantine/core'
 import { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 
-const ControlledPagination = ({ pages, page: curPage, action }) => {
+const ControlledPagination = ({ pages }) => {
   const page = useSelector((state) => state)
-  const [activePage, setPage] = useState(page.pagesReducer[curPage])
+  const [activePage, setPage] = useState(page.pagesReducer)
   const dispatch = useDispatch()
 
   return (
@@ -14,7 +14,7 @@ const ControlledPagination = ({ pages, page: curPage, action }) => {
       onChange={(e) => {
         setPage(e)
         dispatch({
-          type: action,
+          type: 'CHANGE_PAGE',
           payload: e,
         })
         window.scrollTo({

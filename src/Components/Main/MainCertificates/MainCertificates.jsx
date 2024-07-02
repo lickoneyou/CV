@@ -1,32 +1,41 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from './MainCertificates.module.css'
 import certificates from '../../../data/certificates'
-import _ from 'lodash'
-import { useSelector } from 'react-redux'
-import ControlledPagination from '../Pagination/ControledPagination'
-import CertificateImage from '../CertificateImage/CertificateImage'
+import Loader from 'react-js-loader'
 
 const MainCertificates = (props) => {
+  const [loading, setLoading] = useState(true)
+  const counter = useRef(0)
+  const imageLoaded = () => {
+    counter.current += 1
+    if (counter.current >= certificates.length) {
+      setLoading(false)
+    }
+  }
   useEffect(() => {
     props.st('otherApp')
   })
-
-  const chunkSertificates = _.chunk(certificates, 3)
-  const page = useSelector((data) => data.pagesReducer.certificatesPage)
-  const myProjects = chunkSertificates[page - 1]
-
   return (
     <main className={styles.MainCertificates}>
-      <di className={styles.certificatesContainer}>
-        {myProjects.map((el) => {
-          return (
-            <div className={styles.certificateWrapper} key={el.title}>
-              <CertificateImage title={el.title} link={el.link} img={el.img} />
-            </div>
-          )
-        })}
-      </di>
-      <ControlledPagination pages={chunkSertificates.length} page='certificatesPage' action='CHANGE_CERTIFICATES_PAGE' />
+      <div style={{ display: loading ? 'block' : 'none', margin: '250px auto' }}>
+        <Loader bgColor="#000" />
+      </div>
+      {certificates.map((el) => {
+        return (
+          <div
+            className={styles.certificateWrapper}
+            key={el.title}
+            style={{ display: loading ? 'none' : 'block' }}
+          >
+            <a href={el.link} target="_blank" rel="noopener noreferrer">
+              <img onLoad={imageLoaded} src={el.img} alt={el.title} />
+              <span className={styles.img__mask}>
+                <b className={styles.title}>{el.title}</b>
+              </span>
+            </a>
+          </div>
+        )
+      })}
     </main>
   )
 }

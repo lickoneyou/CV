@@ -1,12 +1,8 @@
-export const pagesReducer = (
-  state = { projectsPage: 1, certificatesPage: 1 },
-  action,
-) => {
+export const pagesReducer = (state = 1, action) => {
   switch (action.type) {
-    case 'CHANGE_PROJECT_PAGE':
-      return { ...state, projectsPage: action.payload }
-    case 'CHANGE_CERTIFICATES_PAGE':
-      return { ...state, certificatesPage: action.payload }
+    case 'CHANGE_PAGE':
+      state = action.payload
+      return state
     default:
       return state
   }
