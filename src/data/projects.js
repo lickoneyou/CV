@@ -88,7 +88,7 @@ const projects = [
     img: './images/projects/Shelter.png',
     github: 'https://github.com/lickoneyou/Shelter',
   },
-    {
+  {
     title: 'Learn WordPress',
     img: './images/projects/Wordpress.jpg',
     github: 'https://github.com/lickoneyou/WordPress',
@@ -127,6 +127,12 @@ const projects = [
     link: 'https://lickoneyou.github.io/ReduxTodo/',
     img: './images/projects/reduxTodo.png',
     github: 'https://github.com/lickoneyou/ReduxTodo',
+  },
+  {
+    title: 'My Guides',
+    link: 'https://lickoneyou.github.io/showcase-of-cheat-sheets/',
+    img: './images/projects/showcase-of-cheat-sheets.png',
+    github: 'https://github.com/lickoneyou/showcase-of-cheat-sheets/',
   },
   {
     title: 'Allods Online',
