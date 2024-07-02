@@ -12,7 +12,7 @@ const profile = [
               target="_blank"
               rel="noopener noreferrer"
             >
-              Created 𝟏𝟖 websites and applications
+              Created 𝟐𝟔 websites and applications
             </a>
             <img
               src="./images/icons/link.png"
@@ -168,7 +168,7 @@ const profile = [
               target="_blank"
               rel="noopener noreferrer"
             >
-              Scored 𝟐𝟓𝟎𝟎+ points 𝐂𝐨𝐝𝐞𝐰𝐚𝐫𝐬
+              Scored 𝟐𝟔𝟎𝟎+ points 𝐂𝐨𝐝𝐞𝐰𝐚𝐫𝐬
             </a>
             <img
               src="./images/icons/link.png"
