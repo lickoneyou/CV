@@ -1,6 +1,6 @@
 const profile = [
   {
-    title: 'Profile',
+    title: 'Summary',
     descr: (
       <div>
         <p>What I achieved:</p>
