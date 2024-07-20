@@ -3,10 +3,11 @@ import AsideSection from './AsideSection/AsideSection'
 import Languages from './Languages/Languages'
 import Skills from './Skills/Skills'
 import styles from './Aside.module.css'
+import getAge from '../../handlers/getAge'
 
 const sectionProps = [
   { title: 'Address', disc: 'Krichev, 213500, Mogilev Region, Belarus' },
-  { title: 'Birth Date', disc: '12/02/1996' },
+  { title: 'Birth Date', disc: `12/02/1996 (${getAge()})` },
   { title: 'Nationality', disc: 'Belarusian' },
 ]
 
