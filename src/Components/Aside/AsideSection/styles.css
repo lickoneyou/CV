@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 530px) {
   .asideSection h3 {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .asideSection {

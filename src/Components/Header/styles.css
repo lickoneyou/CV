@@ -1,52 +1,52 @@
 header {
-  display: flex;
-  grid-area: header;
+  display:    flex;
+  grid-area:  header;
   background: linear-gradient(#333333 71%, #fafafa 29%);
-  padding: 0 50px;
-  position: relative;
+  padding:    0 50px;
+  position:   relative;
 }
 
 header h1 {
-  color: white;
+  color:  white;
   margin: 0;
 }
 
 header h3 {
-  color: rgb(220, 217, 217);
-  margin: 0;
+  color:    rgb(220, 217, 217);
+  margin:   0;
   position: relative;
-  left: 15px;
-  top: -5px;
+  left:     15px;
+  top:      -5px;
 }
 
 .myPhoto {
-  width: 250px;
-  height: 250px;
-  background-image: url('../../../public/images/ya.jpg');
+  width:             250px;
+  height:            250px;
+  background-image:  url('../../../public/images/ya.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 100%;
-  position: relative;
-  top: 35px;
+  background-size:   cover;
+  border-radius:     100%;
+  position:          relative;
+  top:               35px;
 }
 
 .dispFlex {
-  display: flex;
+  display:   flex;
   flex-wrap: wrap;
 }
 
 .contacts {
   background-color: rgb(220, 217, 217);
-  border: 3px solid white;
-  border-radius: 30px;
-  padding: 10px 20px 10px 20px;
+  border:           3px solid white;
+  border-radius:    30px;
+  padding:          10px 20px 10px 20px;
 }
 
 .contactsWrapper {
-  display: flex;
-  flex-direction: column;
+  display:         flex;
+  flex-direction:  column;
   justify-content: flex-end;
-  padding-bottom: 35px;
+  padding-bottom:  35px;
 }
 
 .contactsEmail {
@@ -54,17 +54,18 @@ header h3 {
 }
 
 .contactsIcon {
-  align-self: center;
-  width: 20px;
-  height: 20px;
+  align-self:   center;
+  width:        20px;
+  height:       20px;
   margin-right: 10px;
 }
 
 @media screen and (max-width: 830px) {
   header {
     justify-content: center;
-    background: linear-gradient(#333333 73%, #fafafa 27%);
+    background:      linear-gradient(#333333 73%, #fafafa 27%);
   }
+
   .myPhoto {
     display: none;
   }
@@ -74,16 +75,17 @@ header h3 {
   }
 
   header h3 {
-    left: 0;
+    left:       0;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 565px) {
   header {
-    padding: 0 10px;
+    padding:    0 10px;
     min-height: 300px;
   }
+
   .dispFlex {
     justify-content: center;
   }
@@ -91,22 +93,22 @@ header h3 {
 
 @media screen and (max-width: 440px) {
   header {
-    padding: 0 10px;
+    padding:    0 10px;
     background: linear-gradient(#333333 80%, #fafafa 20%);
   }
 
   .contacts {
-    width: 240px;
+    width:   240px;
     padding: 0;
   }
 
   .contactsEmail {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .contactsWrapper {
-    padding: 0;
-    display: flex;
+    padding:     0;
+    display:     flex;
     align-items: center;
   }
 }

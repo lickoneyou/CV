@@ -1,5 +1,5 @@
 aside {
-  grid-area: aside;
+  grid-area:    aside;
   padding-left: 50px;
 }
 
@@ -11,15 +11,15 @@ aside {
 
 @media screen and (max-width: 530px) {
   aside {
-    display: grid;
+    display:               grid;
     grid-template-areas:
       'about languages'
       'skills skills';
     grid-template-columns: 1.6fr 2fr;
-    column-gap: 30px;
-    row-gap: 30px;
-    padding: 0px 50px 0px 50px;
-    margin-bottom: 30px;
+    column-gap:            30px;
+    row-gap:               30px;
+    padding:               0 50px 0 50px;
+    margin-bottom:         30px;
   }
 
   .aboutSection {
@@ -37,6 +37,6 @@ aside {
 
 @media screen and (max-width: 440px) {
   aside {
-    padding: 0px 20px 0px 20px;
+    padding: 0 20px 0 20px;
   }
 }
